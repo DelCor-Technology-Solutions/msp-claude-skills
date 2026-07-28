@@ -1,5 +1,8 @@
 {
   "name": "msp-ops-kit",
+  "owner": {
+    "name": "RTFM IT Services LLC"
+  },
   "metadata": {
     "description": "Marketplace wrapper for the MSP Operations Kit skill suite."
   },
