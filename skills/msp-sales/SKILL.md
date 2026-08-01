@@ -1,17 +1,17 @@
 ---
 name: msp-sales
 description: >
-  Use this skill whenever the user wants to create sales documents, content, or procedures for
-  their managed IT services (MSP) business. Triggers include: cold outreach emails or sequences,
-  sales call scripts or talk tracks, case studies or testimonials, sales pipeline documents,
-  follow-up templates, objection handling guides, discovery call frameworks, prospect targeting,
-  the referral program, or any internal sales enablement content. Also trigger for "write an
-  email to a prospect", "create a sales script", "build a pipeline tracker", "draft a case
-  study", or any mention of winning new clients, following up with leads, or building sales
-  materials for an IT services business, even if the user doesn't say "MSP" explicitly.
-  Marketing content (blog/resources posts, social media, newsletters, article rewrites) and
-  marketing channels/tactics belong to msp-marketing. Apply alongside msp-brand (identity,
-  voice, visuals) and msp-pricing (any number a client could see).
+  Use this skill whenever the user wants sales documents, content, or procedures for their
+  managed IT services (MSP) business: cold outreach emails or sequences, call scripts or talk
+  tracks, case studies, pipeline documents, follow-up templates, objection handling, discovery
+  frameworks, prospect targeting, the referral program, post-proposal negotiation, or internal
+  sales enablement. Also trigger for "write an email to a prospect", "create a sales script",
+  "draft a case study", "the client came back on the proposal", "they countered", "they said
+  no because of cost", reviving a dead or gone-dark deal, or any mention of winning new
+  clients, following up with leads, or building sales materials for an IT services business,
+  even if the user doesn't say "MSP". Marketing content and channels belong to msp-marketing.
+  Apply alongside msp-brand (identity, voice, visuals) and msp-pricing (any number a client
+  could see).
 ---
 
 # MSP Sales Expert Skill
@@ -119,7 +119,16 @@ reference files as needed:
   advising on who to target.
 
 - **`references/objection-handling.md`**: 6 common SMB objections with full response playbooks.
-  Load when writing scripts, talk tracks, or handling objection scenarios.
+  Load when writing scripts, talk tracks, or handling objection scenarios. Covers pushback
+  *before* a proposal exists; once a real number is on the table, load
+  `references/negotiation-playbook.md` instead.
+
+- **`references/negotiation-playbook.md`**: everything after the proposal: the concession
+  ladder (question first, term ladder, onboarding waiver, re-scope, phased start, warm walk),
+  how to present a revised number, counter-offer scenarios (specific asks, competitor quotes,
+  sign-today discounts, the nibble, procurement), and the no-due-to-cost playbook with revival
+  touches. Load whenever a client counters, stalls, or declines a sent proposal, or when a
+  deal sits in pipeline stage 6 (Negotiating).
 
 - **`references/discovery-questions.md`**: 15-question discovery framework (background, pain,
   goals). Load for any discovery call, intake form, or qualifying content. Discovery also feeds
@@ -268,7 +277,7 @@ wants to paste into a CRM/dialer.
 | 3 | Connected | Had a conversation, gathering info | 20% |
 | 4 | Discovery Complete | Understood their situation, pain confirmed | 40% |
 | 5 | Proposal Sent | Quote/scope sent, awaiting decision | 60% |
-| 6 | Negotiating | Verbal interest, working through details | 75% |
+| 6 | Negotiating | Verbal interest, working through details (see section 8 and `references/negotiation-playbook.md`) | 75% |
 | 7 | Closed Won | Signed. Handoff to onboarding | 100% |
 | 8 | Closed Lost | Not moving forward (log reason) | 0% |
 
@@ -345,7 +354,33 @@ client, priced by the configurator.
 
 ---
 
-### 8. Marketing Requests (Handoff)
+### 8. Negotiation After the Proposal
+
+**When:** A proposal is out and the client counters, asks for a better number, goes dark, or
+says no because of cost. Also when the user asks how to present a revised number, whether to
+match a competitor's quote, or how to revive a lost deal.
+
+**Approach:**
+- Load `references/negotiation-playbook.md` and follow its concession ladder in order: diagnose
+  first, then term ladder, then onboarding waiver, then re-scope, then phased start, then a
+  warm walk-away at the floor
+- Every revised number comes from a fresh msp-pricing configurator run. Never eyeball a
+  counter, and never concede below the floor or the $1,000/month minimum (example default)
+  without owner sign-off
+- Never lower a price without visibly changing something (term, scope, or timing), and never
+  revise more than once without a counter from the client
+- Present every revised number live, attached to a commitment question
+- A no due to cost gets one lean re-scope offer, a warm close, a logged reason, and a scheduled
+  revival touch; a revived deal gets fresh discovery and a fresh quote
+- If the pushback is contract language rather than price (liability, termination, non-solicit),
+  hand off to msp-legal
+
+**Output format:** Conversational coaching in chat; talk-track snippets or a revised proposal
+structure on request.
+
+---
+
+### 9. Marketing Requests (Handoff)
 
 **When:** User asks what marketing to do, where to market, what content to create, how to use
 a professional social network, or for any marketing content (posts, articles, newsletters,
@@ -440,9 +475,10 @@ Settle these before this skill goes live for your shop:
 - **Referral credit mechanics.** The "lesser of one month's own fee or one month of the referred
   client's fee" formula above is a shipped default. Decide your own referral incentive (or keep
   this one) before mentioning it to a client.
-- **Public engagement minimum.** The $1,000/month figure referenced in `references/service-catalog.md`
-  and `references/objection-handling.md` is {{COMPANY_NAME}}'s example floor. Set your own in
-  msp-pricing and update every reference to it here.
+- **Public engagement minimum.** The $1,000/month figure referenced in `references/service-catalog.md`,
+  `references/objection-handling.md`, and `references/negotiation-playbook.md` is
+  {{COMPANY_NAME}}'s example floor. Set your own in msp-pricing and update every reference to
+  it here.
 - **VoIP seat pricing.** No per-seat VoIP price ships with this kit. Decide your own model before
   quoting VoIP as anything other than project-plus-liaison work (see `references/service-catalog.md`).
 - **Niche timing.** This skill defaults to "don't niche yet, build broad pipeline first." Decide

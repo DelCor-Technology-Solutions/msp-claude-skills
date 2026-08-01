@@ -40,6 +40,10 @@ number that may be quoted before msp-pricing produces the real one.)
 
 **Key reframe:** Shift from price comparison to risk comparison.
 
+**Scope note:** This track is for *before* a proposal exists. Once a real number has been
+presented and the client pushes back on it, switch to `negotiation-playbook.md`: it owns the
+concession ladder, revised numbers, and the no-due-to-cost playbook.
+
 ---
 
 ## Objection 2: "We already have someone who handles IT" / "We have a guy"
