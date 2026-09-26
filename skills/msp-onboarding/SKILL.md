@@ -7,8 +7,8 @@ description: >
   for planning or quoting onboarding work, building a credential collection list, deploying agents
   to a new environment, or the 30-day review. This is the handoff target for msp-sales pipeline
   stage 7 (Closed Won). Apply alongside msp-legal (paper gates before work starts), msp-pricing
-  (onboarding is always billed separately), msp-brand (every client-facing message), and hand off
-  to msp-helpdesk and msp-qbr at the end.
+  (onboarding is always billed separately), msp-brand (every client-facing message), msp-security
+  (the baseline assessed and hardened to), and hand off to msp-helpdesk and msp-qbr at the end.
 ---
 
 # {{COMPANY_NAME}} Client Onboarding
@@ -104,7 +104,8 @@ Four overlapping phases. Days are targets, not law; the sequence is the law.
   posture. This baseline is protective in two directions: it proves what {{COMPANY_NAME}}
   inherited, and the MSA's ransomware cost allocation carries a negligence carveout, so a dated
   record showing the starting condition and {{COMPANY_NAME}}'s diligence matters if anything
-  ever goes wrong.
+  ever goes wrong. Assess security against the msp-security Tier 1 baseline
+  (`references/client-baseline.md` in that skill), documenting each control as found.
 - Test a backup restore. "Backups are running" is not the same as "backups restore." If there
   are no working backups, that is an urgent finding: tell the client in plain terms and quote
   the fix as a project immediately.
@@ -120,7 +121,10 @@ Four overlapping phases. Days are targets, not law; the sequence is the law.
 - Remove the previous provider's access: their RMM agents, their admin accounts, their remote
   access tools. Document what existed before removing it.
 - Rotate shared and admin credentials into the vault.
-- Enforce MFA on admin accounts at minimum; roll MFA to user accounts per what was sold.
+- Harden to the msp-security Tier 1 baseline. Gaps that cannot close in onboarding get a
+  remediation date or a signed Risk Acceptance Waiver (msp-legal).
+- Enforce MFA on every user account and every admin account. Not optional and not tied to what
+  was sold; a client that declines signs a Risk Acceptance Waiver (msp-legal).
 - Set the patching policy and maintenance windows in the RMM.
 - Check email security basics (SPF, DKIM, DMARC) and fix what is broken.
 - Deploy ZTNA if it was sold.

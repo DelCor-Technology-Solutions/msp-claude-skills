@@ -135,6 +135,9 @@ msp-legal if security or liability adjacent)
 
 ### 6. Security advisory (e.g. a phishing wave)
 
+Advisory rules per msp-security: specific, actionable, no fear-mongering, and say what
+{{COMPANY_NAME}} has already done on its side.
+
 > **Subject: Heads up: [scam type] emails going around**
 >
 > Hi [name],

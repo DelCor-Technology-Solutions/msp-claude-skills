@@ -10,8 +10,9 @@ description: >
   msp-helpdesk owns the reactive desk (tickets, priorities, response targets); this skill owns
   the scheduled work that prevents tickets. Apply alongside msp-client-comms (maintenance
   notices), msp-qbr (the scorecard rows this work feeds), msp-metrics (SLA and ticket data),
-  msp-legal (the negligence carveout that makes these logs matter), and msp-pricing
-  (after-hours multipliers for emergency work).
+  msp-legal (the negligence carveout that makes these logs matter), msp-pricing
+  (after-hours multipliers for emergency work), and msp-security (the standard this
+  work delivers against).
 ---
 
 # {{COMPANY_NAME}} Proactive Maintenance Operations

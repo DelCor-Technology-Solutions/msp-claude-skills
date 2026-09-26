@@ -97,6 +97,10 @@ agreed secure method, never plain email.
 4. Remove {{COMPANY_NAME}} admin accounts, last, after client-confirmed control.
 5. Recover any {{COMPANY_NAME}}-owned loaner hardware.
 
+{{COMPANY_NAME}} access removal follows msp-security's house standard: partner-delegated admin
+relationships ended, named {{COMPANY_NAME}} accounts removed, and the client's vault entries
+rotated or handed over.
+
 Keep a dated record of each removal. The closure letter will attest to it.
 
 ### 4. Data retention

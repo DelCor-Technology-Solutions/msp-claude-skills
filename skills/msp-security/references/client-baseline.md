@@ -25,7 +25,7 @@ blanket alignment.
 
 | Control | Tier | Verify | Evidence |
 |---|---|---|---|
-| MFA enforced for every user (the platform's tenant-wide MFA enforcement or conditional access policies) | T1 (recommended default; admin-only MFA is the msp-onboarding floor) | Tenant MFA registration report; no users excluded without a documented reason | Registration report export |
+| MFA enforced for every user (the platform's tenant-wide MFA enforcement or conditional access policies) | T1 (waiver if declined) | Tenant MFA registration report; no users excluded without a documented reason | Registration report export |
 | Legacy and basic authentication blocked (old mail protocols, SMTP AUTH unless a documented device needs it) | T1 | Sign-in logs show no legacy-protocol sign-ins; policy in place | Policy screenshot |
 | Named admin accounts separate from daily accounts; no shared admin logins | T1 | Admin role membership review | Role export |
 | Global/super admin count held to the minimum (recommended default: 2 to 4 including break-glass) | T1 | Role review | Role export |
@@ -63,7 +63,7 @@ blanket alignment.
 | Screen lock after inactivity (recommended default: 15 minutes or less) | T1 | Policy | Report |
 | Supported OS versions only; end-of-support devices have a replacement date or a waiver | T1 | RMM OS report | Report |
 | Macs managed in your Mac device management (MDM) platform with the equivalent controls | T1 where Macs exist (inherited) | MDM inventory | Report |
-| EDR capability and 24/7 managed detection and response through a partner | T2 (see Setup Decisions) | Console | Report |
+| EDR capability and 24/7 managed detection and response | Not offered (shipped default, see Setup Decisions); scope case by case if a client or insurer requires it | n/a | n/a |
 | Application allow-listing or blocking of unapproved software | T2 | Policy | Report |
 | USB storage restricted | T2 | Policy | Report |
 

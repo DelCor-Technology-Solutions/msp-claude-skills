@@ -6,12 +6,12 @@ description: >
   sends; assessing legal risk on a deal; or answering "what document do we need for this client".
   Always load this skill BEFORE running any generic legal skill (legal:review-contract,
   legal:triage-nda, legal:legal-risk-assessment, legal:compliance-check, etc.): it is your
-  negotiation playbook and document map, the organization-specific positions those skills ask
+  playbook and document map, the organization-specific positions those skills ask
   for. Also trigger on "is this enforceable", "what should our contract say", "the client wants
   to change a clause", or any mention of liability caps, indemnification, non-solicits, or
   contract terms for an IT services business. Apply alongside msp-brand (naming and voice),
-  msp-pricing (any term or number a client could see), and msp-sales (how legal terms land in the
-  sales conversation).
+  msp-pricing (any term or number a client could see), msp-sales (how legal terms land in the
+  sales conversation), and msp-security (security waivers and attestations).
 ---
 
 # {{COMPANY_NAME}} Legal Playbook
@@ -85,6 +85,7 @@ MSA  (the umbrella; every client signs it once)
  +-- Change Order .......... mid-flight changes to an Order or SOW
  +-- DPA / BAA addendum .... attached when the client handles regulated data
  +-- Risk Acceptance Waiver. signed when a client declines a recommendation
+     (declined security controls come from msp-security's baseline)
 ```
 
 The architectural rule that governs everything: **the MSA is the umbrella and carries no term,
@@ -112,7 +113,9 @@ MSA by adding term or pricing language to it.
 
 When a client asks "what do we need for client X," walk the stack top down: MSA always; Order or
 SOW depending on engagement type; DPA/BAA if regulated data; waivers as recommendations get
-declined.
+declined. msp-security is the source for which controls a waiver covers, what {{COMPANY_NAME}}
+can truthfully attest to on a client's cyber insurance questionnaire, and the regulated-client
+overlays that a DPA or BAA commitment rests on.
 
 **A note on the templates:** example drafts of the Service Order, SOW, Risk Acceptance Waiver,
 and DPA ship in the kit's `templates/` folder (msp-service-order, msp-sow,

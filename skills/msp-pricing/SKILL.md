@@ -140,6 +140,10 @@ more to them than the average client.
 Manufacturing factors to inflate the number is transparent and costs the deal. The +40% cap keeps the
 opening honest.
 
+msp-security Tier 2 items (quoted per client) and security remediation projects found in an
+assessment are priced here, as add-ons or SOW projects. Tier 1 baseline controls are part of the
+managed fee and are never itemized as extras.
+
 **Step 5: Run the configurator.** Write a small JSON file describing the client and the options,
 then:
 

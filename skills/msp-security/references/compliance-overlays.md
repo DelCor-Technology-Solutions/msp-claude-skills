@@ -126,7 +126,7 @@ incident with attorney involvement early.
 
 ## {{STATE}} Law Touchpoints (every client in your state)
 
-Fill this section in with your attorney (Setup Decision 10). The areas to cover, which most
+Fill this section in with your attorney (Setup Decision 8). The areas to cover, which most
 states address in some form:
 
 - **Reasonable security:** whether {{STATE}} requires businesses that keep residents' personal

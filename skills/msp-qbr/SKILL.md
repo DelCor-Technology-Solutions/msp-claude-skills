@@ -48,7 +48,8 @@ Pull from your PSA (ticketing) system and the stack:
 - Response performance against the msp-helpdesk targets
 - Backup success rate and the monthly test-restore log (cadence per msp-maintenance)
 - Patch compliance and endpoint protection status
-- Security posture items: MFA coverage, open advisories, incidents this quarter
+- Security posture items: MFA coverage, open advisories, incidents this quarter, and open
+  findings against the msp-security baseline
 - Project status: done, in flight, proposed
 - Horizon items: warranty expirations, OS end-of-life dates, license renewals, hardware age
 - Open recommendations, and any declined ones with their waiver status (msp-legal)
@@ -67,6 +68,8 @@ One page. Green, yellow, or red across five rows, each with a plain-English sent
 | Updates | Are your systems current, or is anything running unsupported? |
 | Hardware | What is aging out, and when will it need money? |
 | Support | How fast did we answer, and how much did your team need us? |
+
+Score the Security row with the msp-security Green/Yellow/Red table.
 
 Score honestly. A yellow that {{COMPANY_NAME}} flags itself builds more trust than a green that
 quietly should not be; the client eventually learns the truth either way, and only one version

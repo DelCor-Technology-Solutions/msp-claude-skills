@@ -82,7 +82,12 @@ full internal mapping):**
 - Email & everyday apps (your email and productivity platform), licenses passed through
 - Servers & cloud
 - Backups & recovery (included with managed workstations and servers)
-- Security: endpoint protection, secure access, Mac management (no EDR/SIEM currently)
+- Security: endpoint protection, MFA on every user, secure access, Mac management (shipped
+  default: no EDR, SIEM, or MDR offered; if a large or regulated prospect requires them, scope
+  it as a one-off, do not promise it). The msp-security client baseline is a selling point: say
+  every managed client gets it. Use "aligned with" language for frameworks, never "compliant",
+  and use msp-security's compliance-overlay triage questions in discovery with regulated
+  prospects.
 - Company phones & tablets (MDM)
 - Network care per site (firewall, switches, Wi-Fi, cameras)
 - Industry-specific software support

@@ -129,6 +129,9 @@ Suspected compromise (ransomware, account takeover, data exposure) is its own tr
    payment; payment decisions, sanctions exposure (OFAC), and any negotiation belong to the
    client, its insurer, and counsel. Reporting to law enforcement (FBI/IC3) is encouraged and is
    the client's call, guided by the attorney.
+9. **Close the loop into msp-security.** Any control found missing or failed during the
+   incident becomes an msp-security assessment finding afterwards, with a remediation date or
+   a signed waiver.
 
 **If {{COMPANY_NAME}}'s own tooling is the suspected vector** (RMM, credential vault, or
 {{COMPANY_NAME}} accounts): this is the worst scenario and it spans every client at once.
@@ -136,7 +139,9 @@ Immediately isolate or disable the suspected {{COMPANY_NAME}} tool tenant-wide, 
 {{COMPANY_NAME}} credentials from a known-clean device, communicate with clients out-of-band
 (phone, not the possibly-compromised email), treat every client environment as potentially
 affected until shown otherwise, and get the attorney engaged in the first hour. Contemporaneous
-documentation matters most here.
+documentation matters most here. The RMM disable procedure, {{COMPANY_NAME}} access rules, and
+the tabletop exercise for this scenario live in msp-security's house standard
+(`references/msp-house-security.md` in that skill).
 
 ---
 

@@ -151,10 +151,10 @@ insurance preferences, which documents they will use). Everything that is a lega
 open for Phase 4, and msp-legal's note is NOT flipped here; it flips only when the attorney
 review is done.
 
-For msp-security, settle Setup Decisions 1 through 9 here. Decision 10 (the state law section of
+For msp-security, settle Setup Decisions 1 through 7 here. Decision 8 (the state law section of
 `msp-security/references/compliance-overlays.md`) is an attorney item: leave it for Phase 4, and
-do not flip that reference file's note until it is filled in. If Decision 1 adopts MFA for every
-user, update msp-onboarding's MFA line to match in the same sitting.
+do not flip that reference file's note until it is filled in. If Decision 1 changes the EDR,
+SIEM, or MDR default, update msp-sales and msp-pricing to match in the same sitting.
 
 Exit condition: every skill's decisions are settled or logged as deferrals, and every note
 except msp-legal's and msp-security's compliance-overlays note is flipped.
@@ -165,7 +165,7 @@ This one cannot be done inside the kit. The positions in msp-legal and the contr
 `templates/` are one MSP's negotiated stances, not legal advice. The user takes them to an
 attorney licensed in their state before anything governs a real client relationship. Record in
 SETUP-STATE.md who they are sending it to and when. The same review fills in the state law section
-of `msp-security/references/compliance-overlays.md` (msp-security Setup Decision 10). When the user
+of `msp-security/references/compliance-overlays.md` (msp-security Setup Decision 8). When the user
 confirms the review is done, write in the attorney's answers, flip msp-legal's note and the
 compliance-overlays note, and mark the phase.
 

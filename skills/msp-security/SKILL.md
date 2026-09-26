@@ -75,9 +75,8 @@ steps, and evidence for each are in `references/client-baseline.md`.
 **Tier 1, Baseline (every managed client, included in the managed service):**
 
 1. **MFA on every user account** in the client's email and productivity platform, and on every
-   admin console {{COMPANY_NAME}} manages. Legacy authentication blocked. (Inherited minimum:
-   MFA on admin accounts is set in msp-onboarding. MFA for every user is the recommended
-   default; see Setup Decisions.)
+   admin console {{COMPANY_NAME}} manages. Legacy authentication blocked. No exceptions
+   without a signed Risk Acceptance Waiver (inherited from msp-onboarding).
 2. **Separate, named admin accounts.** No daily-driver account holds admin rights. No shared
    admin logins. A client-owned break-glass admin exists and is documented (inherited from
    msp-onboarding).
@@ -109,10 +108,13 @@ steps, and evidence for each are in `references/client-baseline.md`.
 **Tier 2, Recommended (quoted per client through msp-pricing, strongly advised):**
 phishing-resistant MFA for admins and finance staff, conditional access or device-compliance
 policies, DNS filtering, advanced email threat protection, a formal phishing-simulation and
-training program, 24/7 managed detection and response (the shipped default assumes
-{{COMPANY_NAME}} does not operate a SOC in-house, so this is delivered through a partner), mobile
-device management for company phones, dark-web credential monitoring, and an annual written
-risk assessment.
+training program, mobile device management for company phones, dark-web credential monitoring,
+and an annual written risk assessment.
+
+**Not offered (shipped default):** EDR, SIEM, and 24/7 managed detection and response. The
+default assumes {{COMPANY_NAME}} does not operate a SOC and has no MDR partner. If a client or
+its insurer requires these, scope it case by case at that point; never promise it in a
+proposal. If you do offer them, see Setup Decision 1.
 
 **Tier 3, Regulated overlays:** whatever the client's regulatory regime adds on top. See
 `references/compliance-overlays.md`. Always an msp-legal conversation; an attorney licensed in
@@ -243,8 +245,8 @@ not an advisory: msp-helpdesk's security track takes over.
 
 These are settled in other skills. If you change one there, keep this skill consistent.
 
-- MFA enforced on admin accounts at minimum; client-owned break-glass admin; credentials only
-  in the vault (msp-onboarding).
+- MFA enforced on every user and admin account, waiver if declined; client-owned break-glass
+  admin; credentials only in the vault (msp-onboarding).
 - Endpoint protection on essentially every managed computer; your Mac MDM platform for Macs;
   ZTNA where sold (msp-pricing, msp-onboarding).
 - Patching and backup verification cadence (msp-maintenance).
@@ -252,42 +254,42 @@ These are settled in other skills. If you change one there, keep this skill cons
   (msp-helpdesk).
 - Declined recommendations get a signed Risk Acceptance Waiver (msp-legal).
 - Insurance gate: E&O plus cyber bind before first MSA signing (msp-legal).
-- No SIEM or SOC services in-house (msp-sales service descriptions; change there first if you
-  offer them).
+- Endpoint protection stays on the platform's plain (non-EDR) tier; no EDR tier (see Setup
+  Decision 1).
+- No EDR, SIEM, SOC, or MDR services offered; scope case by case when a client requires them
+  (msp-sales service descriptions; change there first if you offer them).
 
 ## Setup Decisions
 
 Settle these before this skill goes live for your shop. Each is shipped with a recommended
 default; accept it, change it, or log a deferral.
 
-1. **MFA for every user as Tier 1.** Recommended default: yes, non-negotiable, waiver if
-   declined. msp-onboarding currently says "MFA on admin accounts at minimum; roll MFA to user
-   accounts per what was sold." If you adopt the stricter rule, update msp-onboarding to match.
-2. **Endpoint protection tier.** Decide which tier of your endpoint protection platform you
-   deploy (plain antivirus versus EDR). Insurers increasingly ask for EDR by name.
-   Recommended default: standardize on an EDR-capable tier and update the msp-pricing cost
+1. **EDR, SIEM, and MDR offering.** Shipped default: none offered, endpoint protection stays on
+   the platform's plain (non-EDR) tier, and a client that requires them is scoped case by case.
+   Insurers increasingly ask for EDR by name, and most small MSPs have no after-hours human
+   watching security alerts, so many shops will choose to standardize on an EDR-capable tier
+   and offer MDR through a partner as Tier 2 (possibly Tier 1 for regulated clients). If you do,
+   update the Tier 2 list and the "Not offered" paragraph here, the matching rows in
+   `references/client-baseline.md`, msp-sales (service descriptions), and the msp-pricing cost
    model.
-3. **24/7 MDR partner.** Most small MSPs have no after-hours human watching security alerts.
-   Recommended default: pick an MDR partner and offer it as Tier 2, possibly Tier 1 for
-   regulated clients.
-4. **Immutable backup copy as Tier 1.** Depends on your backup platform's capability; confirm
+2. **Immutable backup copy as Tier 1.** Depends on your backup platform's capability; confirm
    the platform and whether every client's plan includes it.
-5. **Named products for each layer:** credential vault, documentation system, backup platform,
+3. **Named products for each layer:** credential vault, documentation system, backup platform,
    email security, DNS filtering, security awareness training. The skill names categories until
    you record your products (internally; keep them out of client-facing text unless you want
    them there).
-6. **Security awareness in Tier 1 versus Tier 2.** Recommended default: orientation plus
+4. **Security awareness in Tier 1 versus Tier 2.** Recommended default: orientation plus
    advisories in Tier 1, a formal training and phishing-simulation program in Tier 2.
-7. **Annual assessment cadence and deliverable format.** Recommended default: annual, one-page
+5. **Annual assessment cadence and deliverable format.** Recommended default: annual, one-page
    summary plus internal findings list, feeding the next QBR.
-8. **House standard specifics:** security key model and count per person with privileged
+6. **House standard specifics:** security key model and count per person with privileged
    access, the RMM script approval rule (recommended default: a second qualified person, the
    owner or a designated senior tech, reviews any script before a fleet-wide run; a one-person
    shop records its own rule here), and the log retention target.
-9. **Healthcare, CUI, and card-data scope:** whether you take clients whose regimes need
+7. **Healthcare, CUI, and card-data scope:** whether you take clients whose regimes need
    controls beyond your delivery model (see `references/compliance-overlays.md` for the
    recommended stance per vertical).
-10. **{{STATE}} law touchpoints.** With your attorney, fill in the state law section of
-    `references/compliance-overlays.md`: your state's reasonable-security and secure-disposal
-    rules, breach notification deadline and attorney general threshold, consumer privacy law
-    thresholds, and any service-provider requirements.
+8. **{{STATE}} law touchpoints.** With your attorney, fill in the state law section of
+   `references/compliance-overlays.md`: your state's reasonable-security and secure-disposal
+   rules, breach notification deadline and attorney general threshold, consumer privacy law
+   thresholds, and any service-provider requirements.
