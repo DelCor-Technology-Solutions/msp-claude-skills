@@ -1,21 +1,16 @@
 ---
 name: msp-marketing
 description: >
-  Use this skill whenever the user wants marketing CONTENT produced for their managed IT services
-  (MSP) business: blog posts or "resources" articles for the company website, social media posts
-  (professional network, local business listing, general social), email newsletter content,
-  rewriting or adapting outside material (licensed MSP marketing content packs, industry articles,
-  vendor blogs) into the company's voice, generating post ideas from the idea bank, building a
-  content calendar, repurposing one piece into other formats, or SEO titles/descriptions for a
-  post. Also trigger for marketing channel and tactic questions: "where should we market", "what
-  marketing should we do", "how do we get found locally", local business listings, reviews,
-  directories, chambers of commerce, referral partnerships with CPAs/insurance agents, workshops,
-  or a marketing plan/rhythm for an MSP. Trigger on "write a resource", "rewrite this article",
-  "digest this marketing pack", "what should we post", "give me this week's post", or "turn this
-  into a social post". Sales outreach, scripts, pipeline, discovery, and the referral program
-  mechanics belong to msp-sales; operational notices to existing clients belong to
-  msp-client-comms. Apply alongside msp-brand (voice, naming, visuals) and msp-pricing (any
-  number a client could see).
+  Use this skill for marketing CONTENT for your managed IT services (MSP) business: website
+  "resources" articles, social posts (professional network, local listing, general social),
+  newsletters, rewriting licensed marketing packs or articles into your voice, post ideas,
+  content calendars, repurposing, and SEO titles. Also for channel and tactic questions: "where
+  should we market", "how do we get found locally", listings, reviews, chambers, CPA/insurance
+  referral partnerships, workshops, or a marketing rhythm. Trigger on "write a resource",
+  "rewrite this article", "digest this marketing pack", "what should we post", or "turn this
+  into a social post". Sales outreach and referral program mechanics belong to msp-sales;
+  notices to existing clients belong to msp-client-comms. Apply alongside msp-brand and
+  msp-pricing (any number a client could see).
 ---
 
 # MSP Marketing Content Skill

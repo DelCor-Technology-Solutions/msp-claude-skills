@@ -1,6 +1,6 @@
 # MSP Operations Kit
 
-A complete Claude skill suite for running a small managed IT services business (MSP). Fifteen skills that work as one system: every client-visible number comes from one pricing skill, every piece of content follows one brand skill, and every legal-adjacent workflow carries an attorney escalation path.
+A complete Claude skill suite for running a small managed IT services business (MSP). Sixteen skills that work as one system: every client-visible number comes from one pricing skill, every piece of content follows one brand skill, and every legal-adjacent workflow carries an attorney escalation path.
 
 Built and proven inside a working MSP, then white-labeled. The operational structure ships complete; the identity and the numbers are yours to fill in.
 
@@ -33,6 +33,7 @@ Delivery skills (day-to-day operations):
 - `msp-client-comms`: operational message templates (maintenance, incidents, advisories, price changes, and more).
 - `msp-qbr`: quarterly business review process and client scorecard.
 - `msp-metrics`: monthly business review (MRR, margin per client, ticket load, SLA attainment) and the fire-or-fix framework.
+- `msp-security`: security standards. The tiered client baseline (controls, verification, evidence), your own house standard as an MSP, compliance overlays for regulated verticals, assessments, and cyber insurance questionnaire rules.
 
 ## Install
 

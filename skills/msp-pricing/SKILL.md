@@ -9,9 +9,9 @@ description: >
   "how deep can we discount", "should this include on-site", or any mention of quoting devices,
   seats, servers, network gear, on-site visits, contract length, or monthly recurring revenue for
   an IT services deal. Also trigger when reviewing or revising the price sheet or the building
-  blocks. Always load this skill before producing any number a client could see, and apply it
-  alongside msp-sales (the value conversation and discovery) and msp-brand (how the number is
-  presented), and msp-client-comms (the price-increase letter, once the new number is set).
+  blocks. Always load this skill before producing any number a client could see. Apply
+  alongside msp-sales (value conversation), msp-brand (presentation), and msp-client-comms
+  (price-increase letters).
 ---
 
 # {{COMPANY_NAME}} Pricing

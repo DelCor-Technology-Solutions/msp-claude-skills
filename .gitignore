@@ -14,3 +14,6 @@ launch/
 
 # Python cache from running pricing script
 __pycache__/
+
+# Cross-project handoff notes (contain RTFM identity)
+HANDOFF-*.md
