@@ -84,6 +84,8 @@ MSA  (the umbrella; every client signs it once)
  +-- SOW ................... one-time projects: deliverables, price, timeline
  +-- Change Order .......... mid-flight changes to an Order or SOW
  +-- DPA / BAA addendum .... attached when the client handles regulated data
+ +-- Website Services Addendum + Website Development SOW + Website Hosting
+ |   and Care Service Order ... website builds and Website Care
  +-- Risk Acceptance Waiver. signed when a client declines a recommendation
      (declined security controls come from msp-security's baseline)
 ```
@@ -107,6 +109,9 @@ MSA by adding term or pricing language to it.
 | Data Processing Agreement (DPA) | Regulated-data handling addendum (per client's applicable regime) | Example template; pending attorney review; regimes confirmed per client |
 | Business Associate Agreement (BAA) | HIPAA addendum for healthcare clients | Not built; build when first healthcare client appears |
 | Change Order | Amend scope/price of an existing Order or SOW | Not built |
+| Website Services Addendum | Website-specific terms (content, ownership, third-party platform) for builds and Care | Not included in the kit; draft with your attorney if you build websites (document-stack entry 13) |
+| Website Development SOW | Fixed-fee website build | Not included; draft with your attorney (entry 13) |
+| Website Hosting and Care Service Order | Monthly Website Care: term ladder, tiers, edit allowance | Not included; draft with your attorney (entry 13) |
 | Third-party terms flow-through | Pass vendor EULAs (email/productivity platform, endpoint protection, device management, and the like) to client | Not built |
 | Website privacy policy + terms of use | {{DOMAIN}} compliance | Not built |
 | Staff confidentiality + IP assignment | Protects client data and {{COMPANY_NAME}}'s IP as the team grows | Not built; internal corporate docs (operating agreement) exist separately |
@@ -119,7 +124,7 @@ overlays that a DPA or BAA commitment rests on.
 
 **A note on the templates:** example drafts of the Service Order, SOW, Risk Acceptance Waiver,
 and DPA ship in the kit's `templates/` folder (msp-service-order, msp-sow,
-msp-risk-acceptance-waiver, msp-dpa). The MSA and BAA are a to-do for you to draft with your own
+msp-risk-acceptance-waiver, msp-dpa). The MSA, the BAA, and the three website documents are a to-do for you to draft with your own
 attorney, and every shipped draft also requires that attorney review before first use. This file describes what belongs in each document and how they relate;
 it is not a substitute for the signed paper.
 

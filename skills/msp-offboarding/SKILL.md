@@ -86,6 +86,11 @@ agreed secure method, never plain email.
   and that someone on their side (or the successor) has tested it.
 - Confirm domain registrar and DNS control sits with the client or transfers per their
   instruction, in writing.
+- Website clients (a site {{COMPANY_NAME}} built, or Website Care, including Care-only clients):
+  follow msp-website-setup "At Offboarding". Deliver the site source or transfer the repo, and
+  confirm the client controls the registrar, DNS, and hosting platform account, within the 30
+  days the Care Order allows (provided undisputed amounts are paid). If the setup fee was waived
+  and Care ends inside its first term, flag the clawback to msp-legal before the final invoice.
 - Walk the successor through the environment if the client asks. Courteous and professional;
   factual about the environment, quiet about {{COMPANY_NAME}}'s internal matters and pricing.
 
@@ -94,7 +99,9 @@ agreed secure method, never plain email.
 1. Silence monitoring and alerting for the client.
 2. Remove RMM agents.
 3. Unenroll endpoint protection, ZTNA, and MDM as applicable.
-4. Remove {{COMPANY_NAME}} admin accounts, last, after client-confirmed control.
+4. Remove {{COMPANY_NAME}} admin accounts (including {{COMPANY_NAME}}'s administrator seat on
+   the client's hosting platform account and git repo access), last, after client-confirmed
+   control.
 5. Recover any {{COMPANY_NAME}}-owned loaner hardware.
 
 {{COMPANY_NAME}} access removal follows msp-security's house standard: partner-delegated admin

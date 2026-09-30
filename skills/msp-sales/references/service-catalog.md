@@ -26,6 +26,7 @@ content; the block names are internal vocabulary only.
 | Industry-specific software support | Special software block, per app |
 | On-site presence ("about one visit a month") | Bundled on-site hours; extras bill at the managed on-site hourly rate (msp-pricing break-fix card) |
 | Vendor wrangling, domains & DNS | Included in the engagement (vendor liaison) |
+| Website care ("we look after your website, domain, and DNS; it stays in your own account") | Website Care line item: its own Website Hosting and Care Service Order, term ladder, and tiers (msp-pricing). Can be a client's only managed line |
 
 Per-user blocks carry the engagement; device blocks ride along. Anchors, the floor, START,
 and the term ladder all come from msp-pricing.
@@ -41,8 +42,32 @@ absorb onboarding or migration into the recurring price. Categories:
   cabling where low-voltage licensing requires)
 - Emergencies and after-hours work (incident and priority rates)
 - Training and consultation
+- Side offerings: website builds and AI adoption projects (see Side Offerings below)
 
 Rates for all of the above live in msp-pricing.
+
+## Side Offerings (Not Core)
+
+Two offerings sit outside the managed lineup. They exist for managed clients who ask, and as a
+low-cost way to win many small clients and individuals outside the ICP, whose volume turns into
+reviews and referrals. Never lead with them in a managed-services sale. When and how to offer
+them, plus talk tracks and the review ask, live in the msp-sales SKILL.md (section 10).
+
+| What the client hears | What it is (internal) | Owning skills |
+|---|---|---|
+| "A clean, fast website that works on phones. You own it outright: the site, the domain, and the account it runs on." | Static site build, one-time project under a Website Development SOW. Runs on your static hosting platform in a hosting account in the client's own name (usually the platform's free plan); {{COMPANY_NAME}} is an administrator. Client owns domain, content, and code. After launch: Website Care (monthly, managed) or break-fix. | msp-website-setup (process, ownership model), msp-pricing (build and Care prices), msp-legal (Addendum, SOW, Care Order) |
+| "We look at how you actually work, pick the three tasks where AI will save you real time, and hand you step-by-step instructions and ready-to-use prompts for the tools you already pay for, plus what should never go into AI." | AI adoption project: Starter Plan, three workflow cards, prompt starter sheet, red list, walkthrough, 30-day check-in. Fixed fee from break-fix hours, Standard and Lean options. | msp-ai-adoption (delivery), msp-pricing (all numbers), msp-legal (paper) |
+
+Rules for both:
+- Prices come from msp-pricing. Never quote from memory, and marketing carries no prices.
+- Both are fixed-scope one-time projects, never prepaid or block hours. Ongoing website
+  management is Website Care, a separate managed line, never folded into the build.
+- Paper before work: websites need the MSA, the Website Services Addendum, and a Website
+  Development SOW, plus a Website Hosting and Care Service Order when the client takes Care. AI
+  adoption for a business is a SOW under the MSA; individuals sign a one-page engagement letter
+  instead (not included in the kit; draft it with your attorney, see msp-ai-adoption Setup
+  Decision 3, and route individual projects through msp-legal until it exists).
+- Nothing of value is ever offered in exchange for a review.
 
 ## What We Do NOT Sell (and What to Say Instead)
 
@@ -50,7 +75,7 @@ Rates for all of the above live in msp-pricing.
 |---|---|---|
 | SEO & site analytics | Cut | Marketing discipline, not IT. "We can refer you to people who do this all day." |
 | Payment processing | Cut | Different industry with PCI liability. Refer to their bank or processor. |
-| Website hosting | Folded | We don't sell hosting. Domains and DNS are covered under vendor liaison; the website itself goes to a web vendor we coordinate with. |
+| Hosting sites in {{COMPANY_NAME}}'s own accounts | Not sold | We build websites and, under Website Care, manage the hosting in the client's own hosting account. The site never lives in an account {{COMPANY_NAME}} owns, so the client is never locked in. Domains and DNS are covered under vendor liaison or Website Care. |
 | Datacenter networking | Cut | Our sweet-spot clients don't have datacenters. Enterprise work breaks our delivery model. |
 | Faxing | Folded | Secure e-fax lives under Business Phones. Healthcare clients still need it for HIPAA workflows; sell it there. |
 | IVR / phone menus | Folded | A VoIP feature ("auto attendants and phone menus"), not a service line. |

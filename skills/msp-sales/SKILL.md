@@ -9,8 +9,8 @@ description: >
   "draft a case study", "the client came back on the proposal", "they countered", "they said
   no because of cost", reviving a dead or gone-dark deal, or any mention of winning new
   clients, following up with leads, or building sales materials for an IT services business,
-  even if the user doesn't say "MSP". Marketing content and channels belong to msp-marketing.
-  Apply alongside msp-brand (identity, voice, visuals) and msp-pricing (any number a client
+  even if the user doesn't say "MSP". Also for side offerings (AI adoption, websites).
+  Marketing content and channels belong to msp-marketing. Apply alongside msp-brand (identity, voice, visuals) and msp-pricing (any number a client
   could see).
 ---
 
@@ -92,12 +92,29 @@ full internal mapping):**
 - Network care per site (firewall, switches, Wi-Fi, cameras)
 - Industry-specific software support
 - On-site presence ("about one visit a month") and vendor wrangling, domains & DNS
+- Website Care: we look after a client's website, domain, and DNS every month, with hosting in
+  a hosting account in the client's own name. A managed line item that can stand alone (some
+  clients will have nothing else managed); pricing in msp-pricing
 - Business phones (VoIP), including secure e-fax and auto attendants. Note: no seat price
   exists yet; quote VoIP as project + vendor liaison and never invent a seat price
 
-**Deliberately NOT sold:** SEO/site analytics, payment processing, website hosting, and
-datacenter networking. Refer these out; details and talk tracks in
-`references/service-catalog.md`.
+**Side offerings (not core; never lead with them, never let them replace the managed
+conversation):**
+- **Website builds** (msp-website-setup): simple static sites for small businesses, built
+  under a Website Development SOW. The site runs in a hosting account in the client's name, so
+  the client owns the site, the domain, and the hosting account. After launch the client either
+  takes Website Care (monthly, managed) or calls us break-fix.
+- **AI adoption help** (msp-ai-adoption): a short, specific plan for starting with AI in the
+  tools the client already has. Pricing in msp-pricing (AI Adoption side offering).
+
+Both exist for the same two reasons: they answer a real question for managed clients, and they
+are a low-cost way to win many small clients outside the ICP, whose volume turns into reviews and
+referrals. See section 10.
+
+**Deliberately NOT sold:** SEO/site analytics, payment processing, hosting client sites in
+{{COMPANY_NAME}}'s own accounts, and datacenter networking. Refer these out; details and talk
+tracks in `references/service-catalog.md`. We do build websites and manage the client's own
+hosting (Website Care); the site just never lives in an account {{COMPANY_NAME}} owns.
 
 **How {{COMPANY_NAME}} sells:** custom options assembled per client from set building blocks,
 presented as "here is what I put together for you," never as off-the-shelf Gold/Silver/Bronze
@@ -143,7 +160,8 @@ reference files as needed:
   frameworks. Load when writing outreach emails.
 
 - **`references/service-catalog.md`**: The internal catalog mapped to sales language: what we
-  sell, what we deliberately don't sell, the VoIP standing rule, presentation rules (the
+  sell, the side offerings (website builds, AI adoption), what we deliberately don't sell, the
+  VoIP standing rule, presentation rules (the
   $1,000/month public minimum, the term ladder, options not blocks), and what discovery must
   count. Load whenever describing services, scoping a prospect, or writing a proposal. All
   rates except the public minimum live in msp-pricing.
@@ -403,6 +421,68 @@ prospect insight (pain points, buyer language), it draws on this skill's
 
 ---
 
+### 10. Side Offerings: AI Adoption and Website Builds
+
+**When:** A managed client or prospect asks about AI or a website, a small business or
+individual outside the ICP asks for either, or the user wants a pitch, description, or
+follow-up for one.
+
+**When to offer them:**
+- **Managed clients:** only when they ask, or when a QBR or ticket shows a real need. Never
+  push a side offering into a managed-services sale; it distracts from the agreement.
+- **ICP prospects:** the free AI conversation is a door-opener (msp-pricing sets who gets it
+  free). Use it to earn the discovery call, then run the normal managed process.
+- **Small clients and individuals outside the ICP:** offer freely. This is a volume play:
+  small, quick wins bring reviews and referrals far faster than one large client. Do not try to
+  convert them to managed services; if one grows into the ICP, the relationship is already warm.
+
+**Client-facing descriptions (follow msp-brand; no prices in marketing):**
+- *AI adoption:* "You already have AI tools, probably more than you realize. We look at how you
+  actually work, pick the three tasks where AI will save you real time, and hand you
+  step-by-step instructions and ready-to-use prompts for the tools you already pay for. We also
+  tell you what should never go into AI, so you can use it without worrying about your data."
+- *Website:* "A clean, fast website that works on phones and tells people what you do and how
+  to reach you. You own it outright: the site, the domain, and the account it runs on."
+- *Website Care:* "Want us to keep an eye on it? We handle the domain, the settings, and small
+  edits every month, so the site just keeps working. Prefer to run it yourself? It's yours, and
+  we're a call away."
+
+**Website Care after every build:** offer Care at the SOW stage, not after launch. Signing a
+one-year Care Order with the SOW waives the setup fee (msp-pricing). A client who declines Care
+is a break-fix client for their website.
+
+**Short talk track (AI adoption):**
+
+```
+"Most people asking about AI don't need it explained. They need someone to look at their
+week and say 'start here.' That's what we do. We ask a few questions about your work and
+the tools you have, then give you three specific things to try, with the exact steps and
+prompts, plus a short list of what to keep out of it. [PAUSE] Would it help to walk
+through what eats most of your week?"
+```
+
+Prices for AI adoption, website builds, and Website Care all come from msp-pricing. Never quote
+a number from memory.
+
+**After delivery: ask for the review and the referral.** The best moment is right after the
+client says it helped (the walkthrough, the 30-day check-in, or site launch). Ask plainly, and
+never offer anything in exchange for a review (msp-marketing rule and review platforms'
+policies).
+
+```
+"I'm really glad this is working for you. We're a small local business, and online reviews
+are how people find us. Would you be willing to leave a quick one about your experience?
+And if you know anyone else who's been wondering where to start with AI [or who needs a
+website], I'd be grateful if you passed my name along."
+```
+
+Send the review link for your local business listing profile in a short follow-up email the
+same day. The referral credit in the Referral Program below is tied to a monthly fee, so it
+applies to clients who pay one (managed IT or Website Care); for one-off project clients the
+referral ask is a plain thank-you with no credit attached.
+
+---
+
 ## Quote to Contract
 
 The bridge from pipeline stage 5 (Proposal Sent) to stage 7 (Closed Won):
@@ -486,6 +566,10 @@ Settle these before this skill goes live for your shop:
   it here.
 - **VoIP seat pricing.** No per-seat VoIP price ships with this kit. Decide your own model before
   quoting VoIP as anything other than project-plus-liaison work (see `references/service-catalog.md`).
+- **Side offerings.** Website builds with Website Care, and AI adoption projects, ship as side
+  offerings (section 10). Decide whether you offer either; if not, follow the side-offering
+  opt-out list in msp-setup Phase 3, which covers this skill and every other file that mentions
+  them.
 - **Niche timing.** This skill defaults to "don't niche yet, build broad pipeline first." Decide
   when (or whether) your shop specializes in a vertical.
 

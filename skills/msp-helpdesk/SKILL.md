@@ -172,7 +172,8 @@ year in (per msp-pricing's research); sloppy entries now mean repricing blind la
 - **Every touch gets a note and a time entry, entered the same day.** Reconstructed time is
   fiction.
 - **Consistent categories.** Standing set: hardware, software, email and accounts, network,
-  security, backup, printer and peripheral, how-to and training, adds-moves-changes, vendor.
+  security, backup, printer and peripheral, how-to and training, adds-moves-changes, vendor,
+  website (Website Care edits count against the client's 30-minute monthly allowance).
   Amend the list deliberately, not per mood.
 - **Resolution notes in plain English** a client could read, because sometimes they will.
 

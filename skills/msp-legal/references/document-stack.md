@@ -339,6 +339,37 @@ will need it from day one.
 
 ---
 
+## 13. Website Documents (Addendum, Development SOW, Hosting and Care Service Order)
+
+**What they are:** The three documents under the MSA for website work, used when you build client
+websites and manage the client's own hosting (Website Care). They are not included in the kit;
+draft them with an attorney licensed in {{STATE}} before your first website client.
+
+- **Website Services Addendum:** signed once per website client. Client Content warranties and
+  hold-harmless, ownership (client owns the delivered site and domain; {{COMPANY_NAME}} keeps its
+  reusable tools with a perpetual license to the client), AI-assisted production disclosure,
+  third-party platform pass-through (the hosting platform's terms and uptime, not
+  {{COMPANY_NAME}}'s), acceptable use, client owns its legal pages, source backups, survival.
+- **Website Development SOW:** the build. Pages, setup and launch, content drafting, two revision
+  rounds per page, brochure-only exclusions, 30/60-day delay and close-out rule, fixed fee, bundle
+  waiver of the setup fee, deemed acceptance at 10 business days.
+- **Website Hosting and Care Service Order:** Website Care. Services list, one-year minimum and
+  term ladder, tiers with 30 days' notice for a tier change, setup-fee clawback (the pattern entry
+  3's bundle discount mirrors), 30-day handover of source, domain, and hosting account at exit.
+
+Every number in these documents is owned by msp-pricing ("Websites: Builds and Website Care").
+
+**Drafting notes (lessons from the source MSP's first executed set):**
+- Word the Care Order as managing the client's own hosting account, not "Provider will host on
+  Provider's selected hosting platform." The site always runs in an account in the client's
+  name. Consider titling it "Website Care Service Order."
+- Pick one renewal pattern for the Care Order (successive one-year periods or month to month)
+  and use it consistently in the template and every executed Order.
+- Check that the term selected on each executed Order matches its rate on the msp-pricing term
+  ladder.
+
+---
+
 ## Quick selector: "What does client X need to sign?"
 
 1. **Every client:** MSA. Always, once, first.
@@ -349,3 +380,6 @@ will need it from day one.
 6. **They decline a recommendation:** Risk Acceptance Waiver, each time, dated.
 7. **Pre-sale deep discovery with a cautious prospect:** NDA first.
 8. **Anything changes mid-flight:** Change Order, never a side email.
+9. **Website build:** + Website Services Addendum + Website Development SOW (entry 13).
+10. **Website Care:** + Website Hosting and Care Service Order (entry 13). A Care-only client
+    still signs the MSA and the Addendum first.

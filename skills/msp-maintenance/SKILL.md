@@ -147,6 +147,21 @@ already covered by promises this suite makes (msp-helpdesk, msp-offboarding).
   reconstructed at QBR prep.
 - {{COMPANY_NAME}} is the client's vendor liaison per the service catalog; vendor tickets follow
   the msp-helpdesk vendor category so time is captured.
+- Domain renewal dates for Website Care and managed clients are recorded when first seen, and
+  confirmed set to auto-renew in the client's registrar account.
+
+## Website Care (recurring work the Care Order promises)
+
+For clients with a Website Hosting and Care Service Order (msp-pricing, msp-legal):
+- Keep the site and its hosting platform configuration monitored; certificate, DNS, or deploy
+  failures go to msp-helpdesk as tickets.
+- The site's repo on your git hosting provider is the source backup; confirm the production
+  branch matches what is live so the site can be restored from it.
+- Log every content edit as ticket time against the 30-minute monthly allowance; time past it
+  bills at the managed rate.
+- Watch usage against the hosting platform's included limits. A site heading for a higher tier
+  gets a client notice at least 30 days ahead (msp-client-comms), with options to stay in the
+  lower tier where feasible.
 
 ---
 

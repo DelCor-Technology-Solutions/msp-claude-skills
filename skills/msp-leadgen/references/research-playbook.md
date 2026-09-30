@@ -70,7 +70,8 @@ observed or estimated.
 ### IT pain clues (bonus signals, not in the formal ICP but worth recording)
 
 - Dated or broken website (copyright year years old, broken links, no HTTPS): weak but real
-  proxy for "nobody owns technology here."
+  proxy for "nobody owns technology here." For a small business outside the ICP it is also a
+  website-build opening (msp-sales section 10).
 - Reviews mentioning phones down, online booking broken, "couldn't process my card."
 - Free consumer email domain (a free mailbox provider instead of their own domain) on
   business listings: strong signal nobody set up their IT properly; also a signal they may

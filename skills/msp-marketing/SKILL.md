@@ -175,9 +175,11 @@ msp-brand is the source of truth for voice; these rules operationalize it for co
 - **Empathy over fear.** Security topics inform and equip; they never scare. "Here's how to spot
   it" beats "hackers are coming for you." Strip fear framing from source material during rewrites.
 - **Exclusions rule:** never produce content that pitches services the company deliberately does
-  not sell (the example-default list: SEO/site analytics, payment processing, website hosting,
-  datacenter networking; the current list lives in msp-sales `references/service-catalog.md`).
-  Educational mentions are fine; positioning the company as the provider is not.
+  not sell (the example-default list: SEO/site analytics, payment processing, datacenter
+  networking; the current list lives in msp-sales `references/service-catalog.md`).
+  Educational mentions are fine; positioning the company as the provider is not. Website builds
+  and Website Care are sold by default and may be mentioned (no prices), but never position the
+  company as a web host: the site always lives in the client's own account.
 - **No prices.** Content educates; the quote comes from msp-pricing through the sales process.
   The referral program may be mentioned using msp-sales' standing language, never with dollar
   amounts.

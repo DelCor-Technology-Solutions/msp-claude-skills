@@ -34,7 +34,8 @@ Discard on sight:
 
 - Generic MSP boilerplate ("as a leading provider of managed services...")
 - Anything pitching services the company deliberately does not sell (see the exclusions rule
-  in SKILL.md; the current list lives in msp-sales `references/service-catalog.md`)
+  in SKILL.md; the current list lives in msp-sales `references/service-catalog.md`), or casting
+  the company as a web host (we build sites and look after them in the client's own account)
 - Fear-based framing (rewrite the facts with an equipping tone)
 - Claims and statistics you cannot verify. Verify or delete; never launder a stat you can't trace
 - Placeholder names, "[Your MSP Name]" fields, and any other tell that this came from a pack

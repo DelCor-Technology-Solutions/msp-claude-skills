@@ -8,8 +8,8 @@ description: >
   "what should I quote", "build a package for", "what's the floor on this deal", "per-user price",
   "how deep can we discount", "should this include on-site", or any mention of quoting devices,
   seats, servers, network gear, on-site visits, contract length, or monthly recurring revenue for
-  an IT services deal. Also trigger when reviewing or revising the price sheet or the building
-  blocks. Always load this skill before producing any number a client could see. Apply
+  an IT services deal. Also trigger when revising the price sheet or building blocks, or pricing
+  a website or AI adoption project. Always load this skill before producing any number a client could see. Apply
   alongside msp-sales (value conversation), msp-brand (presentation), and msp-client-comms
   (price-increase letters).
 ---
@@ -93,8 +93,15 @@ this is the block that lets you cover clients who need hands on site. On-site wo
 included allowance bills per incident at the managed on-site rate on the break-fix card
 (`references/break-fix-rates.md`).
 
+**Website Care (monthly, optional):** {{COMPANY_NAME}} manages a client's website hosting, domain,
+and DNS in a hosting account in the client's own name. It is a managed line item with its own
+Service Order, term ladder, and tiers, and it can be the only thing {{COMPANY_NAME}} manages for a
+client. It does not run through the configurator; numbers are in "Websites: Builds and Website
+Care" below.
+
 **One-time:** onboarding and migration, always quoted separately from the monthly using break-fix
-rates. Never absorb the cost of moving a client onto your stack.
+rates. Never absorb the cost of moving a client onto your stack. Website builds are one-time
+projects priced in "Websites: Builds and Website Care" below.
 
 ---
 
@@ -219,6 +226,148 @@ the number. The contract ladder is how you reward a longer commitment, not a ref
 
 ---
 
+## Websites: Builds and Website Care
+
+The numbers in this section are shipped example defaults, like everything else in this skill (see
+Setup Decisions).
+
+{{COMPANY_NAME}} builds simple static websites and manages the client's own hosting.
+{{COMPANY_NAME}} never hosts a client site in its own account: every site runs on your static
+hosting platform in a hosting account in the client's name (most small sites fit the platform's
+free plan), with {{COMPANY_NAME}} as an administrator. The build process and ownership model live
+in msp-website-setup; the paper lives in msp-legal (document-stack entry 13).
+
+After launch the client picks one of two paths, the same split as the rest of the business:
+**Website Care** (managed, monthly fee) or **break-fix** (hourly when they need something).
+
+**Build (one-time, Website Development SOW)**
+
+| Item | Price |
+|---|---|
+| Site setup and launch (domain, DNS, hosting setup, SSL, deployment) | $300, waived when the client signs a Website Care Service Order with at least a one-year term on or before the SOW date |
+| Pages | $150 per page |
+
+- Payment: 50% on signing and before work begins, 50% at launch approval or deemed acceptance.
+- The fixed fee includes content drafting from client-supplied material and two revision rounds
+  per page. Extra rounds and post-launch changes bill hourly, or come out of the Website Care
+  edit allowance if the client has Care.
+- Brochure sites only. E-commerce, logins, booking or payment systems, databases, and custom web
+  apps are excluded; so are SEO, ads, photography, and logo design.
+- If the setup fee was waived and the Care Order ends early (other than for {{COMPANY_NAME}}'s
+  uncured breach), the $300 becomes due.
+
+**Website Care (recurring, Website Hosting and Care Service Order)**
+
+A managed line item like any other managed service. It can sit alongside a managed IT agreement
+(its own Service Order under the same MSA) or be the only thing {{COMPANY_NAME}} manages for a
+client.
+
+Includes: domain and DNS management, monitoring and upkeep of the hosting configuration, backups
+of the site source sufficient to restore it, and content edits up to 30 minutes per calendar month
+(no rollover). Excludes redesigns, new pages, and new features (SOW or Change Order).
+
+| Term | Monthly fee (Standard tier) |
+|---|---|
+| 1 year (minimum) | $60 |
+| 2 years | $58 |
+| 3 years | $55 |
+| 5 years | $50 |
+
+| Tier | When it applies | Monthly fee |
+|---|---|---|
+| Standard | Typical brochure site on the hosting platform's included (free) service level | $60 |
+| Plus | Site features (such as form processing) exceed the platform's included limits | $70 |
+| Pro | Traffic, security, or media needs require the hosting platform's paid pro-level plan | $150 |
+| Business | The hosting platform's business-level plan is required | Quoted at need |
+
+- One-year minimum term. Care uses its own ladder above, not the managed 4% ladder, and the
+  $1,000/month engagement minimum (example default) does not apply to it; a Care-only client is
+  below that minimum by design.
+- Tier changes need 30 days' written notice to the client, and {{COMPANY_NAME}} first offers site
+  changes that would keep it in the lower tier where feasible.
+- Care clients are clients under agreement, so edit time beyond the 30 minutes bills at the
+  managed remote rate on the break-fix card.
+- **No Care = break-fix.** A site owner without Care calls when they need something and pays the
+  non-contract rate on the break-fix card. No block hours, no prepaid website hours.
+- Marketing carries no website prices, same as every other price.
+
+---
+
+## Side Offering: AI Adoption
+
+AI adoption is a side offering, not a core service, the same way website builds are (Website
+Care, by contrast, is a managed line item). It exists for two cases: managed clients who ask
+about AI, and small clients or individuals outside the ICP. The second group is a volume play:
+many small, quick projects produce more happy clients, and so more reviews and referrals, than one
+large client ever will. The delivery process lives in msp-ai-adoption; this section owns every
+number. All figures here are shipped example defaults (see Setup Decisions).
+
+It is a one-time, fixed-fee project priced from break-fix hours. The configurator does not apply
+(there are no recurring blocks), the $1,000/month engagement minimum (example default) does not
+apply, and value factors do not apply.
+
+**Standard scope and hours**
+
+| Piece | Hours |
+|---|---|
+| Review the discovery answers or questionnaire | 0.5 |
+| Starter Plan, 3 workflow cards, prompt starter sheet, red list | 2.5 |
+| One remote walkthrough session | 1.0 |
+| 30-day check-in | 0.5 |
+| **Total (price on 5 hours for buffer)** | **4.5** |
+
+**Prices**
+
+| Option | Scope | Non-contract | Managed client | Floor |
+|---|---|---|---|---|
+| Standard | Everything above | $650 | $550 | $450 |
+| Lean | Deliverables only (no walkthrough, no check-in; about 3 hours) | $450 | $330 | $270 |
+
+- Managed prices are the managed remote rate ($110) times the hours. Non-contract Standard is set
+  at $650 by owner decision (an effective $130/hr, below the $150 card rate on purpose to keep
+  small-client volume flowing); non-contract Lean is 3 hours at $150.
+- Floors are the remote floor ($90/hr) times the hours. Below the floor needs owner sign-off,
+  same as everything else.
+- Lead with Standard. Offer Lean only when the client wants to run it themselves or budget is
+  the blocker. Both clear the 50% margin floor.
+- Scope that grows (more users, more workflow cards, extra sessions for a team) is re-quoted
+  from hours at the client's card rate, still as a fixed fee. Out-of-scope requests after
+  delivery bill hourly at the card rate (remote: 30-minute minimum, then 15-minute increments).
+
+**What is free**
+
+- A 30 to 45 minute AI conversation is free for managed clients and for prospects in the ICP (a
+  door-opener). Individuals and small clients outside the ICP get a normal short scoping call,
+  but the advice itself is the paid project.
+- For managed clients, ongoing AI progress review folds into the QBR at no extra charge, and AI
+  license administration is covered like any other SaaS. The written Starter Plan pack is not
+  free; it is the managed-price project above.
+
+**Standing rules**
+
+- **Fixed-fee scope, never prepaid hours.** Unused hours do not carry over and the project is
+  never described as a block. This keeps it clear of the no-block-hours rule on the break-fix
+  card.
+- **The price never changes in exchange for a review or referral.** No discounts, credits, or
+  anything of value for a review (review platforms' policies and the msp-marketing rule both
+  forbid it). The review and referral payoff comes from volume and a plain ask after delivery
+  (msp-sales).
+- **AI licenses** (Copilot, Gemini, ChatGPT business plans, Claude Team) that {{COMPANY_NAME}}
+  bills follow the standing third-party license markup above: one line, markup never broken
+  out. Look up current vendor pricing at the time of the quote; never quote a seat price from
+  memory.
+- **Paper before work** (msp-legal owns the documents): managed clients sign a short SOW under
+  their existing MSA; non-managed businesses sign the MSA plus a SOW; individuals sign a one-page
+  engagement letter instead. The kit does not include that letter; draft it with your attorney
+  (msp-ai-adoption Setup Decision 3), and route individual projects through msp-legal until it
+  exists.
+- **No paid workshop product.** Group "AI for your team" sessions run only as free marketing
+  workshops (msp-marketing). A client who wants their team trained gets extra walkthrough
+  hours on their own project, priced from hours.
+- **Marketing carries no AI adoption prices**, same as every other price.
+
+---
+
 ## Setup Decisions
 
 Everything above is what the example MSP settled for its own shop. Settle each of these for yours
@@ -252,6 +401,15 @@ before this skill goes anywhere near a client:
 - **Support-hour assumptions per device.** The example's per-block labor hours (1.0 for a
   workstation, 1.5 for a server, and so on) reflect a reactive, early-stage shop with limited
   automation. Revisit these once you have your own ticket data; see `references/support-hours.md`.
+- **Website builds and Website Care.** The example builds brochure sites at $300 setup (waived
+  with a one-year Care Order) plus $150 per page, and prices Website Care at $60/$58/$55/$50 on a
+  1/2/3/5-year ladder with Standard, Plus, Pro, and Business tiers keyed to the hosting platform's
+  plans. Decide whether you build and manage websites at all; if you do, set your own build and
+  Care prices, and match them to your website paper (msp-legal document-stack entry 13). If you
+  do not, follow the side-offering opt-out list in msp-setup Phase 3.
+- **AI adoption project.** The example prices a 4.5-hour project on 5 hours: Standard $650
+  non-contract / $550 managed / $450 floor, Lean $450 / $330 / $270 floor. Decide whether you
+  offer it (msp-ai-adoption Setup Decision 1) and rebuild these from your own break-fix card.
 
 Once you have settled these, re-run `scripts/price_quote.py` against a known client (for example
 `scripts/client.template.json`) and check how far the band moved before quoting anything live.

@@ -261,6 +261,7 @@ hourly rate.
 Internet provider, printer company, software vendors, your domain registrar: when something
 breaks where their stuff meets yours, we make the calls, sit on hold, and see it through. We
 also manage your domains and DNS so email keeps flowing and your website stays pointed in the
-right direction. (We don't build or host websites, but we coordinate with the people who do.)
+right direction. (Need a simple website? We can build that too, you'll own it outright, and we
+can look after it every month if you'd like.)
 
 **Outcome language:** "You never have to referee an argument between two vendors again."

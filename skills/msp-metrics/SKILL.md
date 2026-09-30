@@ -35,7 +35,8 @@ from a working MSP. Review and replace them with your own before anything goes c
 Walk the same sheet every month.
 
 **1. MRR and delta.** Total monthly recurring revenue, plus what moved: seats added or removed,
-clients gained or lost, repricing that took effect. Flat MRR with rising seat counts means
+clients gained or lost, repricing that took effect. Website Care fees are MRR, and a Care-only
+client counts as a client. Flat MRR with rising seat counts means
 someone is being under-billed; check Change Order follow-through (msp-onboarding flags count
 deltas, this review confirms they got papered).
 

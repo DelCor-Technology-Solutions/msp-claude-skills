@@ -30,6 +30,9 @@ from a working MSP. Review and replace them with your own before anything goes c
 - **msp-sales** hands off here at pipeline stage 7. Discovery notes (headcounts, device counts,
   pain points, promises made) are the onboarding inputs. Read them before the kickoff.
 - **msp-legal** owns the paper gates below. If a gate fails, work does not start.
+- **msp-website-setup** owns new website builds and taking over an existing site. A client
+  whose only managed line is Website Care onboards through that skill, not the full process
+  here.
 - **msp-pricing** owns the onboarding project price. Onboarding and migration are always billed
   separately at break-fix rates, never absorbed into the monthly. If the project was not quoted
   before signature, quote it now before scheduling work.
@@ -82,6 +85,9 @@ Four overlapping phases. Days are targets, not law; the sequence is the law.
 - Their email and productivity platform admin (create a {{COMPANY_NAME}}-controlled admin,
   confirm a client-owned break-glass admin exists too)
 - Domain registrar and DNS host
+- Website: where it is hosted and who holds the account. If {{COMPANY_NAME}} will manage it
+  (Website Care), the site moves to or stays in a hosting account in the client's name per
+  msp-website-setup; never into a {{COMPANY_NAME}}-owned account
 - Email security or spam filter portal, if any
 - Firewall and router admin
 - Switches and wireless access points
