@@ -256,6 +256,15 @@ After launch the client picks one of two paths, the same split as the rest of th
 - If the setup fee was waived and the Care Order ends early (other than for {{COMPANY_NAME}}'s
   uncured breach), the $300 becomes due.
 
+**Taking over an existing site**
+
+When a client wants Website Care on a site {{COMPANY_NAME}} did not build, the takeover work
+(moving the site into accounts in the client's name, setting up the repo and pipeline, connecting
+hosting) is a fixed-fee SOW, priced from estimated hours at the managed-client rates on the
+break-fix card, the same way onboarding and migration are quoted. Quote it before any work
+starts. Whether a site that is not a static site on your static hosting platform can go on Care
+as it is gets decided case by case (msp-website-setup, "Taking Over an Existing Site").
+
 **Website Care (recurring, Website Hosting and Care Service Order)**
 
 A managed line item like any other managed service. It can sit alongside a managed IT agreement

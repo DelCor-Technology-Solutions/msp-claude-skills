@@ -177,7 +177,9 @@ Setup Decision "Side offerings"), remove it everywhere in the same sitting:
   `references/rewrite-playbook.md`), msp-leadgen (`references/research-playbook.md` website
   clue), msp-onboarding, msp-offboarding, msp-maintenance (Website Care section and domain
   renewal line), msp-helpdesk (website ticket category), and msp-metrics (Care as MRR). Keep
-  msp-website-setup if the user still builds sites for their own use.
+  msp-website-setup if the user still builds sites for their own use, but remove its Website
+  Care and client-paper content (the Phase 0 table and bullets, and "Taking Over an Existing
+  Site").
 
 Exit condition: every skill's decisions are settled or logged as deferrals, and every note
 except msp-legal's and msp-security's compliance-overlays note is flipped.

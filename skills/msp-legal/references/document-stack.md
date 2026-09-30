@@ -382,4 +382,5 @@ Every number in these documents is owned by msp-pricing ("Websites: Builds and W
 8. **Anything changes mid-flight:** Change Order, never a side email.
 9. **Website build:** + Website Services Addendum + Website Development SOW (entry 13).
 10. **Website Care:** + Website Hosting and Care Service Order (entry 13). A Care-only client
-    still signs the MSA and the Addendum first.
+    still signs the MSA and the Addendum first. Taking over a site {{COMPANY_NAME}} did not
+    build adds a fixed-fee SOW for the takeover work (entry 3; price from msp-pricing).

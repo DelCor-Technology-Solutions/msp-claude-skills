@@ -7,11 +7,11 @@ description: Your MSP's standard process for setting up a new static client webs
   static hosting platform, or wiring up dev and prod deployments for a small business site, even
   if the user just says "let's build a site for this client" or "set up the repo for the new
   website". Also trigger for questions about who owns a client's site, domain, repo, or content,
-  which agreement a website project needs and when in the sequence (drafting the document itself
-  is msp-legal), website accessibility (WCAG, alt text, contrast),
+  which agreements a website project needs (Addendum, SOW, Care Order) and when in the sequence
+  (drafting the documents themselves is msp-legal), taking over an existing site, Website Care,
+  website accessibility (WCAG, alt text, contrast),
   privacy policy or form-data questions on a client site, and handing a site back at
-  offboarding. Load before writing any site code or running git init so the project starts on
-  the standard structure.
+  offboarding. Load before writing any site code or running git init.
 ---
 
 # {{COMPANY_NAME}} Static Website Setup
@@ -20,7 +20,60 @@ Standard process for standing up a new static client website: paper first, then 
 
 ## Phase 0: Paper Gate (before any site work)
 
-No website work starts before a signed SOW under the client's MSA. See msp-legal, document-stack entry 3. The SOW carries scope, price, timeline, content responsibilities (who writes copy, who supplies photos, by when), and acceptance criteria for launch. For managed clients, a website build is project work outside their Order, so it gets its own SOW; it does not ride along on the managed agreement. If someone says "just start the site, we'll paper it later", stop and route to msp-legal.
+No website work starts until the right paper is signed and the deposit is in. The documents
+are in msp-legal, document-stack entry 13; every number in them comes from msp-pricing
+("Websites: Builds and Website Care").
+
+| Situation | Client signs |
+|---|---|
+| New website build | MSA (if not already signed) + Website Services Addendum + Website Development SOW |
+| Build with Website Care | The above + Website Hosting and Care Service Order (one-year minimum) |
+| Care only, for a site {{COMPANY_NAME}} did not build | MSA (if not already signed) + Website Services Addendum + Website Hosting and Care Service Order + a fixed-fee SOW for the takeover work (see "Taking Over an Existing Site" below) |
+
+- **The Addendum is signed once per website client.** It carries the ownership model below,
+  the client-content warranties, and the third-party platform terms. A later build or Care
+  Order for the same client does not need a new one.
+- **Offer Care at the SOW stage, not after launch** (msp-sales section 10). A one-year Care
+  Order signed on or before the SOW date waives the site setup fee (msp-pricing; $300 as the
+  shipped example default). A client who declines Care is a break-fix client for their website
+  after launch.
+- **Deposit before work.** The build is 50% on signing and before work begins, 50% at launch
+  approval or deemed acceptance (msp-pricing, shipped example default). The signed SOW is not
+  enough on its own; the first payment must be received.
+- **Managed IT clients still get their own website paper.** A build is project work outside
+  their managed Order, so it gets its own Development SOW, and Care gets its own Service Order
+  under the same MSA. Neither rides along on the managed agreement.
+- If someone says "just start the site, we'll paper it later", stop and route to msp-legal.
+
+The website documents are not included in the kit (msp-legal, document-stack entry 13). Draft
+them with an attorney licensed in {{STATE}} before your first website client; the drafting
+notes in entry 13 cover the Care Order wording.
+
+## Taking Over an Existing Site (Care-Only Clients)
+
+When a client wants {{COMPANY_NAME}} to look after a site it did not build:
+
+1. **Paper first:** MSA + Website Services Addendum + Care Order, plus a fixed-fee SOW for the
+   takeover work (Phase 0 table). The takeover is priced from estimated hours at the
+   managed-client rate (msp-pricing, "Websites: Builds and Website Care") and quoted before any
+   work starts.
+2. **Assess before quoting Care.** A static site you can run on your static hosting platform is
+   the standard case, and the Care tiers are priced against that platform's plans. A site on a
+   platform you do not normally manage (a hosted site builder, a content management system,
+   e-commerce) is judged case by case: take it on as it is if you can support it properly, or
+   propose a rebuild under a Development SOW. Decide before quoting, and record the decision and
+   the reason in `COMPANY-INFO.md`.
+3. **Move it into the client's own accounts.** Registrar and hosting account (an account on
+   your static hosting platform for a static site) in the client's name, with {{COMPANY_NAME}}
+   as administrator, never a {{COMPANY_NAME}}-owned account (msp-onboarding credential
+   checklist). For a static site, get the source into a repo under the standard two-branch
+   structure (Phases 2 and 3), then connect the hosting platform (Phase 5).
+4. **Run the Definition of Done checks** that apply to an existing site: accounts in the
+   client's name, privacy policy if it collects form data, accessibility baseline, contact
+   links verified.
+5. Hand off to msp-maintenance for the recurring Website Care work.
+
+A Care-only client does not go through the full managed-IT process in msp-onboarding.
 
 ## Ownership Model
 
@@ -31,7 +84,7 @@ The client owns their website. Specifically:
 - The repo on your git hosting provider is transferred to the client (or their successor provider) at offboarding.
 - {{COMPANY_NAME}} retains a license to reuse its generic tooling and pipeline configs (the deployment setup, build scripts, and boilerplate it uses across client sites), not the client's content or design.
 
-State this ownership model in each project's SOW so it is contract, not just practice. The point: no client is ever hostage to {{COMPANY_NAME}} for their own website, and no dispute can turn the site into leverage. This is standing policy, not a one-time decision; apply it to every client site.
+The Website Services Addendum (msp-legal document-stack entry 13) states this ownership model, so it is contract, not just practice. The point: no client is ever hostage to {{COMPANY_NAME}} for their own website, and no dispute can turn the site into leverage. This is standing policy, not a one-time decision; apply it to every client site.
 
 ## Architecture Overview
 
@@ -144,7 +197,7 @@ In your static hosting platform's dashboard, connect the project to your git rep
 
 ## Definition of Done
 
-- [ ] Signed SOW under the MSA, stating scope, price, timeline, content responsibilities, acceptance criteria, and the ownership model
+- [ ] Signed MSA, Website Services Addendum, and Website Development SOW (plus the Care Order if the client took Care); first 50% payment received
 - [ ] `COMPANY-INFO.md` with client info and website plan
 - [ ] Content ownership confirmed in writing; photo consent verified for any images of people
 - [ ] Git repo with `main` + `dev`, `.gitignore` covering `.env`
