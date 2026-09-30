@@ -48,13 +48,13 @@ As a plugin in Claude Code or Cowork (recommended, one step gets everything):
 /plugin install msp-ops-kit@msp-ops-kit
 ```
 
-As a plugin file in the Claude app (no command line needed): upload `msp-ops-kit.plugin` under Customize, Plugins. To build the file yourself from a copy of this repo, run:
+As a plugin file in the Claude app (no command line needed): [download `msp-ops-kit.plugin`](https://github.com/RTFM-IT-Services-LLC/msp-claude-skills/releases/latest/download/msp-ops-kit.plugin) from the latest release and upload it under Customize, Plugins. Every version is listed on the [Releases page](https://github.com/RTFM-IT-Services-LLC/msp-claude-skills/releases) with its changes. To build the file yourself from a copy of this repo instead, run:
 
 ```
 git archive --format=zip -o msp-ops-kit.plugin HEAD .claude-plugin/plugin.json skills templates README.md LICENSE
 ```
 
-When a new version comes out, build and upload the new file the same way; the version number in `.claude-plugin/plugin.json` tells the app it changed.
+When a new version comes out, download (or build) the new file and upload it the same way; the version number in `.claude-plugin/plugin.json` tells the app it changed.
 
 Or install skills individually in Cowork / claude.ai: zip a skill folder (the folder containing SKILL.md) and upload it under Settings, Capabilities.
 
