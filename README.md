@@ -1,6 +1,6 @@
 # MSP Operations Kit
 
-A complete Claude skill suite for running a small managed IT services business (MSP). Seventeen skills that work as one system: every client-visible number comes from one pricing skill, every piece of content follows one brand skill, and every legal-adjacent workflow carries an attorney escalation path.
+A complete Claude skill suite for running a small managed IT services business (MSP). Eighteen skills that work as one system: every client-visible number comes from one pricing skill, every piece of content follows one brand skill, and every legal-adjacent workflow carries an attorney escalation path.
 
 Built and proven inside a working MSP, then white-labeled. The operational structure ships complete; the identity and the numbers are yours to fill in.
 
@@ -22,6 +22,7 @@ Foundation skills (the ones everything else defers to):
 - `msp-leadgen`: prospecting research. Territory sweeps with a desk-scoring rubric, decision-maker identification, per-prospect contact plans, and first-touch drafts that feed the sales pipeline.
 - `msp-pricing`: a pricing configurator with cost model references and a working quote script, plus the break-fix rate card, website build and Website Care pricing, and AI adoption project pricing.
 - `msp-legal`: your document stack (MSA, Orders, SOW, DPA, waivers, and the website documents) and negotiation playbook.
+- `msp-technical-writing`: prose form for everything that is not marketing or direct customer communication, plus the steps, troubleshooting, and technical process descriptions inside customer content. Based on ASD-STE100 Simplified Technical English. Includes the `scripts/ste-lint.py` linter.
 
 Services beyond managed IT (optional; turn them off during setup if you don't offer them):
 

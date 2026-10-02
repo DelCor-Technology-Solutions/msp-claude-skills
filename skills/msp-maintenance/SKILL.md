@@ -30,6 +30,10 @@ allocation carries a negligence carveout. {{COMPANY_NAME}}'s protection in a bad
 dated log showing the routine ran: patches applied, backups verified, alerts handled. Every
 section below ends in a record because the record is part of the service.
 
+Write maintenance procedures, change plans, and patch and test-restore steps to
+msp-technical-writing in strict mode. Write the logs and notes in flavored mode. Client
+maintenance notices belong to msp-client-comms.
+
 ---
 
 ## Patching (example default)

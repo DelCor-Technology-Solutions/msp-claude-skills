@@ -437,3 +437,6 @@ the minimum term and the highest price, with 2, 3, and 5 years stepping down. Ha
 for voice and formatting and to `msp-sales` for the value framing. The client should always meet the
 price wrapped in the outcome it buys, presented as options assembled for them, never as a naked
 spreadsheet or a standard tier card. The internal band (floor and opening ask) stays internal.
+
+Internal margin notes and quote rationale are Zone 1 of `msp-technical-writing` (flavored mode).
+Anything the client sees follows `msp-brand`.

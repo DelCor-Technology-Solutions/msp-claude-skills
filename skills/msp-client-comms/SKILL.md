@@ -44,6 +44,9 @@ standard signature block, and no em dashes anywhere.
   msp-legal before sending.
 - Update cadence and severity words come from msp-helpdesk. A message about a P1 says things
   are urgent because they are; a P3 does not borrow urgency to look responsive.
+- **Client steps follow msp-technical-writing (Zone 2, strict mode).** This covers the "what to
+  do" list in a security advisory and any reset or setup steps. Put the steps in their own
+  numbered list. The rest of the message follows msp-brand.
 
 Placeholders appear in [brackets]. The support intake address is {{SUPPORT_EMAIL}}
 ({{SUPPORT_ALIAS_EMAIL}} also opens a ticket; print {{SUPPORT_EMAIL}} in anything client-facing).
@@ -81,7 +84,7 @@ apology for the short notice. Send a two-line "complete, all clear" when done.
 > it now.
 >
 > What we know so far: [one or two observed facts]. In the meantime: [workaround, or "no action
-> needed on your end"].
+> needed on your end". A workaround with more than one step goes in a numbered list].
 >
 > Next update: by [time], {{TIMEZONE}}, sooner if it is resolved.
 >
@@ -148,9 +151,14 @@ Advisory rules per msp-security: specific, actionable, no fear-mongering, and sa
 >
 > What to watch for: [two or three concrete tells].
 >
-> What to do: do not click or reply; forward anything suspicious to {{SUPPORT_EMAIL}} and we
-> will check it, usually within the hour. If someone already clicked, call us right away at
-> {{PHONE}}. Nobody is in trouble; fast beats embarrassed.
+> What to do:
+>
+> 1. Do not click links in the email.
+> 2. Do not reply to the email.
+> 3. Forward anything suspicious to {{SUPPORT_EMAIL}}. We will check it, usually within the hour.
+> 4. If someone already clicked, call us right away at {{PHONE}}.
+>
+> Nobody is in trouble; fast beats embarrassed.
 >
 > We are watching for this on our side as well.
 >
@@ -227,8 +235,10 @@ additional notice.
 > taken, e.g. "secured the account and signed out all active sessions"] and we are
 > investigating.
 >
-> What we need from you right now: [specific asks, e.g. "please have staff hold off on
-> clicking anything unusual and call us rather than emailing about this issue"].
+> What we need from you right now:
+>
+> 1. [First specific ask, e.g. "Do not click anything unusual in your email today."]
+> 2. [Next ask, e.g. "Call us about this issue. Do not email about it."]
 >
 > Next update: by [time], {{TIMEZONE}}. If you have questions before then, call
 > me directly at {{PHONE}}.

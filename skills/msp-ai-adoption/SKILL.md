@@ -44,6 +44,9 @@ productivity" overview.
 - **msp-legal** also owns the paper that must be signed before a paid project starts
   (SOW, MSA plus SOW, or the individual engagement letter; see Inherited Defaults).
 - **msp-brand** governs every page the client sees. No em dashes.
+- **msp-technical-writing** sets the sentence form. The Workflow Cards, how-to steps, and the
+  30-day plan steps are Zone 2 (strict mode). msp-brand still governs the framing around them.
+  The prompt text a client pastes into an AI tool is out of scope.
 - **msp-sales** picks up when the conversation reveals a bigger need (no managed IT, messy
   tenant, a licensing upgrade). Record it as a sales note; do not pitch mid-discovery.
 - **msp-qbr** is where an existing client's AI progress gets reviewed after the first 30 days.
@@ -294,6 +297,7 @@ Follows msp-security. In plain language for the client:
 - Specific over complete: three things done well beats a list of twenty ideas.
 - Starter Plan and Workflow Cards are client-facing and follow msp-brand. Sales notes and
   the next-wave list are internal and never go to the client.
+- Per msp-technical-writing, sales notes and the next-wave list are Zone 1 (flavored mode).
 - Use fictional names (Acme convention) in any example saved into the kit.
 
 ---

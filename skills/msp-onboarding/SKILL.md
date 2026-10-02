@@ -37,6 +37,9 @@ from a working MSP. Review and replace them with your own before anything goes c
   separately at break-fix rates, never absorbed into the monthly. If the project was not quoted
   before signature, quote it now before scheduling work.
 - **msp-brand** governs every message a client sees, including the welcome email below.
+- **msp-technical-writing** sets the prose form. The 30-day runbook, credential collection
+  lists, and internal notes are Zone 1 (strict mode for steps). The welcome email follows
+  msp-brand. Any setup steps for client users inside it are Zone 2.
 - **msp-helpdesk** is where the client lands at day 30: priorities, targets, and intake.
 - **msp-qbr** picks up the roadmap seeded by the 30-day review, roughly 90 days in.
 

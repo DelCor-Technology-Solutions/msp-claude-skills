@@ -25,6 +25,10 @@ system's ticket time entries and agreement data. The msp-helpdesk hygiene rules 
 a ticket, same-day time entries) are what make these numbers real. When a margin looks
 implausibly good, check the time entries before celebrating.
 
+**Writing form:** the monthly owner review write-up, client health notes, and reports follow
+msp-technical-writing in flavored mode (Zone 1). A client-facing consequence, such as a
+repricing letter, belongs to msp-client-comms and msp-brand.
+
 **Defaults you must review:** the specific numbers in this skill are shipped example defaults
 from a working MSP. Review and replace them with your own before anything goes client-facing.
 

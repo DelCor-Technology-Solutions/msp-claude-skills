@@ -207,6 +207,13 @@ hire could act on.)
 - **Internal / salesperson-facing content** (scripts, playbooks, enablement): Motivating,
   action-oriented, and clear. Help the reader feel confident and know exactly what to do next.
 
+**Prose form (msp-technical-writing):** Everything that is not marketing or direct customer
+communication follows msp-technical-writing. Its rules set the sentence form, and the internal
+register above sets the tone for internal content. In customer-facing
+content, this section owns the voice. msp-technical-writing applies there only to the
+technical parts: step-by-step instructions, troubleshooting steps, and descriptions of a
+technical process. Those parts still use the plain-English words below.
+
 **Punctuation, no em dashes:** Do not use the em dash in your content. Overusing it is a strong tell
 that text was AI-generated, and it turns readers off. Default to commas, periods, parentheses, a
 colon, or restructuring the sentence instead. Only use an em dash in the rare case where a human
@@ -251,4 +258,6 @@ which person actually makes the buying decision.
 - **Fonts:** fill in your heading font, body font, and document fallback from the typography table
 - **Logo:** your full color lockup is the default; icons for small spaces; grayscale for single-color
 - **Voice:** Friendly expert. Plain English. Outcomes over specs. Empathy over fear.
+- **Prose form:** msp-technical-writing for everything except marketing and direct customer
+  communication, and for steps or instructions inside those.
 - **Never:** jargon in client copy; fear-based selling; em dashes.

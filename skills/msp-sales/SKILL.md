@@ -65,6 +65,11 @@ Four skills cover {{COMPANY_NAME}}'s go-to-market. Stay in your lane and hand of
   user asks how to structure or price plans, that skill governs. This skill only supplies the
   framing around the number.
 
+Outside the go-to-market lane, **msp-technical-writing** sets the prose form. Internal
+enablement (coaching notes in scripts, objection guide explanations, pipeline documents, and
+playbooks) is Zone 1, flavored mode. Outreach emails, the spoken lines of a call script,
+proposals, and case studies follow msp-brand. A technical explanation inside them is Zone 2.
+
 ---
 
 ## About This Business
@@ -537,6 +542,8 @@ service credit on your next invoice as a thank-you."
 **For anything branded (which is nearly everything):**
 - Load msp-brand first and apply its naming, contact, color, font, logo, and voice rules
 - The no-em-dash rule from msp-brand applies to every deliverable
+- Load msp-technical-writing for the prose form. Internal enablement is Zone 1 (flavored).
+  Technical parts of customer-facing pieces are Zone 2 (see the siblings section above).
 
 **For Word documents (.docx):**
 - Always consult the `docx` skill before generating

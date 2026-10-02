@@ -69,6 +69,9 @@ Sequence matters more than speed. The rule that prevents the worst outcome:
 works.** A client locked out of their own systems by an eager offboarding is the single most
 damaging exit failure.
 
+Write the runbook steps in the strict mode of msp-technical-writing (Zone 1). Write the
+documentation package in the flavored mode, with any procedure inside it in the strict mode.
+
 ### 1. Assemble the documentation package
 
 - Asset inventory and network map
@@ -145,6 +148,9 @@ final invoice should contain nothing the client has not already heard about.
 ## Templates
 
 Apply msp-brand. Plain English, warm, no em dashes.
+
+The letters follow msp-brand. Any steps the client must take inside a letter are Zone 2 of
+msp-technical-writing. Put them in a numbered list and write them in the strict mode.
 
 **Acknowledgment (within 2 business days of notice):**
 

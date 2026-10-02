@@ -18,6 +18,8 @@ description: Your MSP's standard process for setting up a new static client webs
 
 Standard process for standing up a new static client website: paper first, then client info, then git repo with a two-branch pipeline, then hosting on your static hosting platform. The order matters: content and structure decisions are cheaper before any code exists.
 
+Writing form: the setup phase notes, the Website Plan in `COMPANY-INFO.md`, and the deployment steps follow msp-technical-writing (Zone 1, strict mode for steps). Copy for the client's site follows the client's voice, not msp-technical-writing.
+
 ## Phase 0: Paper Gate (before any site work)
 
 No website work starts until the right paper is signed and the deposit is in. The documents

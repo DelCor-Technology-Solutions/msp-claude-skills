@@ -176,6 +176,9 @@ year in (per msp-pricing's research); sloppy entries now mean repricing blind la
   website (Website Care edits count against the client's 30-minute monthly allowance).
   Amend the list deliberately, not per mood.
 - **Resolution notes in plain English** a client could read, because sometimes they will.
+- **Note form follows msp-technical-writing.** Ticket notes, time entry notes, and resolution
+  notes use flavored mode. Any procedure or step list in a ticket uses strict mode. The
+  plain-English rule above still applies.
 
 **Closing the loop:** confirm the fix with the requester. If a resolved ticket gets no reply for
 5 business days, send the closing notice (template in msp-client-comms) and close it. For every

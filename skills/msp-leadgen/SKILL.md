@@ -47,6 +47,8 @@ research.
 - **msp-pricing:** never estimate or imply a price in leadgen output beyond the public
   engagement minimum ($1,000/month is the shipped example default; the real number lives in
   msp-pricing), and only when a dossier needs a qualification note.
+- **msp-technical-writing:** dossiers and other research notes are Zone 1 (flavored mode). The
+  first-touch draft is customer communication. It follows msp-brand and msp-sales instead.
 
 ---
 

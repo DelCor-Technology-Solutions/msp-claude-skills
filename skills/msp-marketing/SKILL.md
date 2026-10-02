@@ -60,6 +60,9 @@ Adjacent handoffs:
   skill's process.
 - **Case studies** stay with msp-sales (they are sales assets). This skill may repurpose a
   finished case study into social posts.
+- **msp-technical-writing** applies only to how-to steps, troubleshooting steps, and technical
+  process descriptions inside a piece (Zone 2). The rest of the piece follows msp-brand and
+  this skill.
 
 ---
 
@@ -168,6 +171,8 @@ msp-brand is the source of truth for voice; these rules operationalize it for co
 - **No em dashes.** Brand rule, zero exceptions worth making.
 - **Jargon translation is mandatory**, per msp-brand's plain-English list ("your computers and
   phones," not "endpoints").
+- **How-to steps:** put them in a numbered list, one action per step, per msp-technical-writing
+  strict mode.
 - **Banned openers and clichés.** Never use: "In today's fast-paced digital landscape,"
   "In today's digital age," "Now more than ever," "Look no further," "unlock," "seamless,"
   "game-changer," "cutting-edge," "leverage," "robust," "digital transformation," "elevate,"

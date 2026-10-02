@@ -44,6 +44,9 @@ disclaimer inside a client-facing contract itself.
 - **msp-brand:** how legal documents look and read. Full legal name in contracts, no em dashes
   anywhere, brand fonts and accent formatting for formatted templates. Load it before producing
   any formatted document.
+- **msp-technical-writing:** the sentence form of contract prose, legal notes, and risk
+  summaries. These use the flavored mode. Legal drafting conventions win on conflict, and the
+  attorney's wording controls.
 - **msp-pricing:** every number and commercial term a client could see. Term lengths, the
   discount ladder, minimums, and rate multipliers belong to that skill; contracts must match it,
   never contradict it (see "Pricing rules that bind contracts" below).
@@ -159,6 +162,7 @@ Two rules from that file worth keeping in mind at all times:
 - Full legal name **{{COMPANY_LEGAL_NAME}}** in contracts, signature blocks, and formal
   documents. Signature block reads "{{COMPANY_LEGAL_NAME}} (Provider)".
 - No em dashes anywhere, including inside contract prose.
+- Prose form follows the "Contracts and Legal Documents" section of msp-technical-writing.
 - Governing law is {{STATE}}.
 
 **Pricing rules that bind contracts (from msp-pricing; contracts must match the sheet):**

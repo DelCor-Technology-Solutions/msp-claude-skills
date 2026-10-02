@@ -238,6 +238,7 @@ not an advisory: msp-helpdesk's security track takes over.
 | msp-sales | Uses the baseline as a selling point, in "aligned with" language only. |
 | msp-client-comms | Security advisories and anything client-facing about a control change. |
 | msp-offboarding | {{COMPANY_NAME}} access removal at exit follows the house standard's access rules. |
+| msp-technical-writing | Sets the prose form. Security standards, internal assessment findings, and hardening or incident procedures are Zone 1 (strict mode for steps). The client-facing assessment summary follows msp-brand. The fix for each gap is Zone 2. |
 
 ---
 
